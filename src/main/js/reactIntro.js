@@ -9,9 +9,9 @@
 
     console.log(myNestedReactComponent);
 
-    // const App = React.createElement("h1", {}, "Our First React page has rendered");
+    const App = React.createElement("h1", {}, "Our First React page has rendered");
     // const App = myReactComponent;
-    const App = myNestedReactComponent;
+    // const App = myNestedReactComponent;
     ReactDOM.render(App, document.getElementById("root"));
 
 })();
