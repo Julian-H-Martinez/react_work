@@ -1,6 +1,8 @@
 (() => {
     "use strict";
 
+    const root = document.querySelector("#root");
+
     const myReactComponent = React.createElement("h1", {}, "I am creating my first React component");
 
     console.log(myReactComponent);
@@ -9,10 +11,12 @@
 
     console.log(myNestedReactComponent);
 
-    const App = React.createElement("h1", {}, "Our First React page has rendered");
+    // const App = React.createElement("h1", {}, "Our First React page has rendered");
     // const App = myReactComponent;
     // const App = myNestedReactComponent;
-    ReactDOM.render(App, document.getElementById("root"));
+    //  SYNTACTIC SUGAR w/JSX and Babel
+    const App = () => <h1>Our First React Page has rendered AGAIN!!!</h1>;
+    ReactDOM.render(<App />, root);
 
 })();
 
