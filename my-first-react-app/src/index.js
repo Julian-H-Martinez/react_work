@@ -3,13 +3,28 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import SomeClassComponent from "./components/SomeClassComponent";
+import PersonCard from "./components/PersonCard";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/*<App />*/}
-      <SomeClassComponent firstName = "Julian" lastName = {"Martinez"}/>
+    {/*  <SomeClassComponent firstName = "Julian" lastName = {"Martinez"}/>*/}
+      <div>
+          <div>
+              <PersonCard firstName = "Jessica" lastName = {"Martinez"} age = {40} hairColor = "autumn red" />
+          </div>
+          <div>
+              <PersonCard firstName = "Julian" lastName = {"Martinez"} age = {38} hairColor = "black" />
+          </div>
+          <div>
+              <PersonCard firstName = "Matthew" lastName = {"Martinez"} age = {20} hairColor = "black" />
+          </div>
+          <div>
+              <PersonCard firstName = "Immanuel" lastName = {"Martinez"} age = {12} hairColor = "autumn red" />
+          </div>
+      </div>
   </React.StrictMode>
 );
 
