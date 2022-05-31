@@ -10,10 +10,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/*<App />*/}
-      <SomeClassComponent header = {"Header Prop"}>
-          <p>This is a child</p>
-          <h4>I too am a child</h4>
-      </SomeClassComponent>
+      <SomeClassComponent />
+    {/*  <SomeClassComponent header = {"Header Prop"}>*/}
+    {/*      <p>This is a child</p>*/}
+    {/*      <h4>I too am a child</h4>*/}
+    {/*  </SomeClassComponent>*/}
     {/*  <div>*/}
     {/*      <div>*/}
     {/*          <PersonCard firstName = "Jessica" lastName = {"Martinez"} age = {40} hairColor = "autumn red" />*/}

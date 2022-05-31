@@ -11,13 +11,14 @@ class SomeClassComponent extends Component{
             //     <h1>This is our first class component!</h1>
             //     <h3>Welcome, {firstName} {lastName}</h3>
             // </div>
-            <div>
-                <h1>
-                    {header}
-                </h1>
-                {children}
-            </div>
-        )
+            // <div>
+            //     <h1>
+            //         {header}
+            //     </h1>
+            //     {children}
+            // </div>
+            <button onClick={ () => alert("This button has been clicked!") }>Click Me</button>
+        );
     }
 }
 
