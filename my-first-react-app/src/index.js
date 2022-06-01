@@ -16,21 +16,21 @@ root.render(
     {/*      <p>This is a child</p>*/}
     {/*      <h4>I too am a child</h4>*/}
     {/*  </SomeClassComponent>*/}
-    {/*  <div>*/}
-    {/*      <div>*/}
-    {/*          <PersonCard firstName = "Jessica" lastName = {"Martinez"} age = {40} hairColor = "autumn red" />*/}
-    {/*      </div>*/}
-    {/*      <div>*/}
-    {/*          <PersonCard firstName = "Julian" lastName = {"Martinez"} age = {38} hairColor = "black" />*/}
-    {/*      </div>*/}
-    {/*      <div>*/}
-    {/*          <PersonCard firstName = "Matthew" lastName = {"Martinez"} age = {20} hairColor = "black" />*/}
-    {/*      </div>*/}
-    {/*      <div>*/}
-    {/*          <PersonCard firstName = "Immanuel" lastName = {"Martinez"} age = {12} hairColor = "autumn red" />*/}
-    {/*      </div>*/}
-    {/*  </div>*/}
-      <LightSwitch />
+      <div>
+          <div>
+              <PersonCard firstName = "Jessica" lastName = {"Martinez"} age = {40} hairColor = "autumn red" />
+          </div>
+          <div>
+              <PersonCard firstName = "Julian" lastName = {"Martinez"} age = {38} hairColor = "black" />
+          </div>
+          <div>
+              <PersonCard firstName = "Matthew" lastName = {"Martinez"} age = {20} hairColor = "black" />
+          </div>
+          <div>
+              <PersonCard firstName = "Immanuel" lastName = {"Martinez"} age = {12} hairColor = "autumn red" />
+          </div>
+      </div>
+      {/*<LightSwitch />*/}
   </React.StrictMode>
 );
 
