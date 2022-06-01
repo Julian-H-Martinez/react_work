@@ -4,13 +4,14 @@ import './index.css';
 import App from './App';
 import SomeClassComponent from "./components/SomeClassComponent";
 import PersonCard from "./components/PersonCard";
+import LightSwitch from "./components/LightSwitch";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/*<App />*/}
-      <SomeClassComponent />
+    {/*  <SomeClassComponent />*/}
     {/*  <SomeClassComponent header = {"Header Prop"}>*/}
     {/*      <p>This is a child</p>*/}
     {/*      <h4>I too am a child</h4>*/}
@@ -29,6 +30,7 @@ root.render(
     {/*          <PersonCard firstName = "Immanuel" lastName = {"Martinez"} age = {12} hairColor = "autumn red" />*/}
     {/*      </div>*/}
     {/*  </div>*/}
+      <LightSwitch />
   </React.StrictMode>
 );
 
