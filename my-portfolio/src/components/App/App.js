@@ -2,6 +2,8 @@ import './App.css';
 import Header from '../Header';
 import Navigation from '../Navigation';
 import Main from '../Main';
+import SubContents from '../SubContents';
+import Advertisement from "../Advertisement";
 
 
 function App() {
@@ -10,10 +12,10 @@ function App() {
       <Header />
       <Navigation />
       <Main>
-        {/*<SubContents />*/}
-        {/*<SubContents />*/}
-        {/*<SubContents />*/}
-        {/*<Advertisement />*/}
+        <SubContents />
+        <SubContents />
+        <SubContents />
+        <Advertisement />
       </Main>
     </div>
   );
