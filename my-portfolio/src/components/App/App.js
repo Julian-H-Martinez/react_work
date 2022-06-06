@@ -8,7 +8,7 @@ import Advertisement from "../Advertisement";
 
 function App() {
   return (
-    <div className="app">
+    <div className={"app"}>
       <Header />
       <Navigation />
       <Main>
