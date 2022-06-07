@@ -1,5 +1,6 @@
 .header{
     text-align: center;
     border: hotpink 2px solid;
-    display: block;
+    display: block !important;
+    color: orangered;
 }
