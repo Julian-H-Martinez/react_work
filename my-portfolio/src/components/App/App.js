@@ -1,4 +1,7 @@
 import './App.css';
+import '../Header.css';
+import '../SubContents.css';
+import '../Advertisement.css';
 import Header from '../Header';
 import Navigation from '../Navigation';
 import Main from '../Main';
@@ -14,7 +17,7 @@ function App() {
       <Main>
         <SubContents />
         <SubContents />
-        <SubContents />
+        <SubContents  />
         <Advertisement />
       </Main>
     </div>
